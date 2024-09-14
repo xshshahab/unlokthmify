@@ -14,7 +14,7 @@ const SocialLinks = () => {
         <FaXTwitter size={22} />
       </a>
       <a
-        href="https://github.com/"
+        href="https://github.com/xshshahab/unlokthmify"
         target="_blank"
         rel="noopener noreferrer"
         className="text-xl font-semibold cursor-pointer hover:underline"

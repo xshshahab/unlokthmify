@@ -40,7 +40,8 @@ const Hero = () => {
         </p>
         <div className="flex flex-col justify-center mt-4 space-y-4 md:flex-row md:space-y-0 md:space-x-4">
           <a
-            href="https://github.com/your-repo-link" // Replace with your actual GitHub link
+            target="_blank"
+            href="https://github.com/xshshahab/unlokthmify"
             className="flex items-center px-6 py-3 text-white transition duration-300 rounded-md bg-neutral-950 hover:bg-neutral-800"
           >
             Go to Github <FaArrowRight className="ml-2" />
