@@ -1,0 +1,18 @@
+@keyframes borderShine {
+  0% {
+    border-image-source: linear-gradient(45deg, #ff7e5f, #feb47b);
+  }
+  50% {
+    border-image-source: linear-gradient(135deg, #ff7e5f, #feb47b);
+  }
+  100% {
+    border-image-source: linear-gradient(225deg, #ff7e5f, #feb47b);
+  }
+}
+
+.capsule-border {
+  border: 1px solid transparent;
+  border-radius: 9999px; /* Same border radius as before */
+  border-image: linear-gradient(45deg, #ff7e5f, #feb47b) 1;
+  animation: borderShine 3s infinite linear;
+}
