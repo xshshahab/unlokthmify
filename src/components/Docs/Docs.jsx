@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import DocsLeft from "./Left/DocsLeft";
-import DocsRight from "./Right/DocsRight";
-import { BiMenuAltLeft } from "react-icons/bi"; // Importing the react icon
+import { BiMenuAltLeft } from "react-icons/bi";
 import { Outlet } from "react-router-dom";
 
 const Docs = () => {

@@ -17,14 +17,14 @@ const DocsLeft = ({ isSidebarOpen, toggleSidebar }) => {
           <li>
             <Link
               className="font-semibold text-slate-800"
-              to=""
+              to="inspired"
               onClick={toggleSidebar}
             >
               Inspired
             </Link>
           </li>
           <li>
-            <Link to="getting-started" onClick={toggleSidebar}>
+            <Link to="" onClick={toggleSidebar}>
               Getting Started
             </Link>
           </li>

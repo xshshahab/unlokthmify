@@ -5,13 +5,12 @@ import { Toaster } from "react-hot-toast";
 import Layout from "./Layout/Layout.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Docs from "./components/Docs/Docs.jsx";
-
 import NotFound from "./components/Pages/NotFound.jsx";
 import Backgrounds from "./components/Backgrounds/Backgrounds.jsx";
 import Buttons from "./components/Buttons/Buttons.jsx";
-import "./index.css";
 import Inspired from "./components/Docs/components/Inspired.jsx";
 import GettingStarted from "./components/Docs/components/GettingStarted.jsx";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -28,11 +27,11 @@ const router = createBrowserRouter([
         element: <Docs />,
         children: [
           {
-            path: "",
+            path: "inspired",
             element: <Inspired />,
           },
           {
-            path: "getting-started",
+            path: "",
             element: <GettingStarted />,
           },
         ],
