@@ -20,7 +20,7 @@ const Backgrounds = () => {
             These ready-to-use background snippets.
           </p>
           <button className="relative inline-flex items-center justify-center h-12 px-3 overflow-hidden font-medium rounded-md group bg-neutral-950 text-neutral-200">
-            <Link target="_blank" to="https://github.com">
+            <Link target="_blank" to="https://github.com/xshshahab/unlokthmify">
               <span>Go to Github</span>
             </Link>
             <div className="ml-1 transition group-hover:translate-x-1">
