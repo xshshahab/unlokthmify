@@ -55,35 +55,12 @@ const GettingStarted = () => {
             If you have any questions or need further assistance, feel free to
             reach out to us:
           </p>
-          <ul className="pl-5 mt-4 list-disc">
-            <li>
-              Owner:{" "}
-              <a
-                href="https://www.linkedin.com/in/mdshahabuddin82/"
-                className="text-blue-500 hover:underline"
-              >
-                Md Shahabuddin
-              </a>
-            </li>
-            <li>
-              Team Leader:{" "}
-              <a
-                href="https://www.linkedin.com/in/mdirfan2470/"
-                className="text-blue-500 hover:underline"
-              >
-                Md Irfan
-              </a>
-            </li>
-            <li>
-              Team Member:{" "}
-              <a
-                href="https://www.linkedin.com/in/mdmizanahsan/"
-                className="text-blue-500 hover:underline"
-              >
-                Md Mizan Ahsan
-              </a>
-            </li>
-          </ul>
+          <a
+            href="https://www.linkedin.com/in/mdshahabuddin82/"
+            className="text-blue-500 hover:underline"
+          >
+            Md Shahabuddin
+          </a>
         </section>
       </div>
     </main>

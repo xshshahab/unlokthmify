@@ -8,7 +8,6 @@ import Docs from "./components/Docs/Docs.jsx";
 import NotFound from "./components/Pages/NotFound.jsx";
 import Backgrounds from "./components/Backgrounds/Backgrounds.jsx";
 import Buttons from "./components/Buttons/Buttons.jsx";
-import Inspired from "./components/Docs/components/Inspired.jsx";
 import GettingStarted from "./components/Docs/components/GettingStarted.jsx";
 import "./index.css";
 
@@ -26,10 +25,6 @@ const router = createBrowserRouter([
         path: "/pages/docs",
         element: <Docs />,
         children: [
-          {
-            path: "inspired",
-            element: <Inspired />,
-          },
           {
             path: "",
             element: <GettingStarted />,

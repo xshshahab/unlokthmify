@@ -15,15 +15,6 @@ const DocsLeft = ({ isSidebarOpen, toggleSidebar }) => {
 
         <ul className="mt-2 space-y-3">
           <li>
-            <Link
-              className="font-semibold text-slate-800"
-              to="inspired"
-              onClick={toggleSidebar}
-            >
-              Inspired
-            </Link>
-          </li>
-          <li>
             <Link to="" onClick={toggleSidebar}>
               Getting Started
             </Link>
