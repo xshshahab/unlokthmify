@@ -9,7 +9,7 @@ const DesktopNav = () => {
         to="/pages/docs"
         className={({ isActive }) =>
           `cursor-pointer ${
-            isActive ? "text-sky-700 font-bold" : "hover:text-sky-700"
+            isActive ? "text-sky-700 font-bold" : "hover:text-sky-700 font-semibold"
           }`
         }
       >
@@ -20,7 +20,7 @@ const DesktopNav = () => {
         to="/pages/buttons"
         className={({ isActive }) =>
           `cursor-pointer ${
-            isActive ? "text-sky-700 font-bold" : "hover:text-sky-700"
+            isActive ? "text-sky-700 font-bold" : "hover:text-sky-700 font-semibold"
           }`
         }
       >
@@ -30,11 +30,21 @@ const DesktopNav = () => {
         to="/pages/background"
         className={({ isActive }) =>
           `cursor-pointer ${
-            isActive ? "text-sky-700 font-bold" : "hover:text-sky-700"
+            isActive ? "text-sky-700 font-bold" : "hover:text-sky-700 font-semibold"
           }`
         }
       >
         Background
+      </NavLink>
+      <NavLink
+        to="/pages/colors"
+        className={({ isActive }) =>
+          `cursor-pointer ${
+            isActive ? "text-sky-700 font-bold" : "hover:text-sky-700 font-semibold"
+          }`
+        }
+      >
+        Colors
       </NavLink>
       <div className="opacity-25 text-slate-900">|</div>
       <SocialLinks />

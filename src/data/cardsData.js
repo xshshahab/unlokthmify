@@ -15,8 +15,10 @@ import Card14 from "../components/Backgrounds/Bg/Card14/Card14";
 import Card15 from "../components/Backgrounds/Bg/Card15/Card15";
 import Bg01 from "../components/Backgrounds/Bg/Bg01/Bg01";
 import Bg02 from "../components/Backgrounds/Bg/Bg02/Bg02";
+import NewBg01 from "../components/Backgrounds/Bg/NewBg01/NewBg01";
 
 const cards = [
+  NewBg01,
   Bg01,
   Bg02,
   Card1,

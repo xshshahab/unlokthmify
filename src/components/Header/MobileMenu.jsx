@@ -72,6 +72,17 @@ const MobileMenu = ({
           >
             Background
           </NavLink>
+          <NavLink
+            to="/pages/colors"
+            className={({ isActive }) =>
+              `block mb-4 cursor-pointer ${
+                isActive ? "text-sky-700 font-bold" : "hover:underline"
+              }`
+            }
+            onClick={closeMobileMenu}
+          >
+            Colors
+          </NavLink>
         </nav>
         <div className="flex items-center gap-3 p-2 mt-auto">
           <SocialLinks />

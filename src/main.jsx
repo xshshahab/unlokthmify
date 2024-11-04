@@ -10,6 +10,7 @@ import Backgrounds from "./components/Backgrounds/Backgrounds.jsx";
 import Buttons from "./components/Buttons/Buttons.jsx";
 import GettingStarted from "./components/Docs/components/GettingStarted.jsx";
 import "./index.css";
+import Colors from "./components/Colors/Colors.jsx";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/pages/background",
         element: <Backgrounds />,
+      },
+      {
+        path: "/pages/colors",
+        element: <Colors />,
       },
 
       {
