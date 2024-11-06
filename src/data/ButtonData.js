@@ -48,6 +48,8 @@ import Btn47 from "../components/Buttons/Btn/Btn47";
 import Btn48 from "../components/Buttons/Btn/Btn48";
 import Btn49 from "../components/Buttons/Btn/Btn49";
 import Btn50 from "../components/Buttons/Btn/Btn50";
+import Btn51 from "../components/Buttons/Btn/Btn51";
+import Btn52 from "../components/Buttons/Btn/Btn52";
 
 const buttons = [
   Btn01,
@@ -100,6 +102,8 @@ const buttons = [
   Btn48,
   Btn49,
   Btn50,
+  Btn51,
+  Btn52
 ];
 
 export default buttons;
