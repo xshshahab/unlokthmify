@@ -14,7 +14,7 @@ const NewBg01Prev = ({ onClose }) => {
         </button>
 
         <div className="relative z-[99] w-full h-full bg-slate-900 rounded-lg overflow-hidden">
-            {/* iske neeche rakhna */}
+          
         <div className="absolute top-0 w-full h-full bg-white -z-10">
   <div className="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(150,255,100,0.5)] opacity-50 blur-[80px]"></div>
 </div>
